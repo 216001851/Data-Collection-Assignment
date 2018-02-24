@@ -1,0 +1,35 @@
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {paragraph}{•}{1}
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {paragraph}{Poultry farming is the process of raising domesticated birds such as chickens, ducks, turkeys and geese for the purpose of farming meat or eggs for food. Poultry are farmed in great numbers with chickens being the most numerous ‎Poultry farming.}{1}
+\contentsline {paragraph}{Poultry farming business has numerous benefits. As a result many farmers prefer to invest in this business. People generally establish poultry farm for the purpose of producing eggs, meat and generating high revenue from these products. Billions of chickens are being raised throughout the world as a good source of food from their eggs and meat. The benefits of Poultry farming are;}{1}
+\contentsline {paragraph}{Poultry farming doesn’t require high capital for starting. You need just basic capital to start raising poultry. And most of the poultry birds are not costly enough to start raising.}{1}
+\contentsline {paragraph}{Poultry farming doesn’t require a big space unless you are going to start commercially. You can easily raise some birds on your own backyard with one or numerous coops or cages. So, if you are interested in poultry farming, then you can easily do it on your own backyard with several birds.}{1}
+\contentsline {paragraph}{Commercial poultry farming business also ensure high return of investment within a very short period. Some poultry birds like broiler chickens take shorter duration of time to mature and generating profit.}{1}
+\contentsline {section}{\numberline {2}Data Collection}{1}
+\contentsline {paragraph}{Poultry record keeping system form/interface helps the farmer during information/data collection about his/her poultry business. The farmer inputs data using smartphone with ODK data collector application installed on the phone. Farmer enters data a bout Batch Number, Number of Layers, Number of Broilers and Number of Trays collected on daily basis. This data collected is sent and stored on google coloud server and can be retrieved at any time with a lot of ease. This will reduce on un necessary delays in data collection and errors encountered during record access.}{1}
+\contentsline {section}{\numberline {3}Statement of the problem}{1}
+\contentsline {paragraph}{Research indicates that most farmers use paper work when recording information/data about their poultry business, therefore the current system is characterized by delays and sometimes failure to access historical records hence errors which are common in file based system. This therefore called for a study on current system in order to come up with a reliable poultry record keeping system.}{2}
+\contentsline {section}{\numberline {4}Main Objective of the study}{2}
+\contentsline {section}{\numberline {5}Specific Objectives}{2}
+\contentsline {paragraph}{To review the existing system of poultry record keeping}{2}
+\contentsline {paragraph}{To analyze and design poultry record keeping system}{2}
+\contentsline {paragraph}{To implement the poultry record keeping system}{2}
+\contentsline {paragraph}{To test the poultry record keeping system}{2}
+\contentsline {section}{\numberline {6}Literature Review}{2}
+\contentsline {paragraph}{The existing system involved farmer recording of poultry business information/data manually which was quite tedious, time wasting and paper wasting. Still with this system, records are kept in shelves where by some of the files are misplaced or altered in any way.}{2}
+\contentsline {section}{\numberline {7}Summary, Discussion and Recommendation}{2}
+\contentsline {subsection}{\numberline {7.1}Summary}{2}
+\contentsline {paragraph}{Research has indicated that most poultry farmers are spending more time in recording/collecting data a bout their poultry business because it is done manually using papers, books and pens which is tedious. The proposed system will help the farmer to capture data using smart phone with installed ODK data collector application on his/her phone. The farmer enters data/fills the form and save the filled data, then after sent to Google cloud server where it is stored. The farmer can retrieve the data at any time with a lot of ease.}{2}
+\contentsline {subsection}{\numberline {7.2}Discussion}{2}
+\contentsline {paragraph}{The system was designed to fulfill the basic aim and specific objectives that were proposed.The researcher was mindful of the input, processing, storing and retrieving requirements necessary for an effective system. The main user to interact with the system form is the farmer.}{2}
+\contentsline {subsection}{\numberline {7.3}Recommendation}{3}
+\contentsline {paragraph}{First of all, it is important that poultry farmers continue to use the old manual system alongside new system as they get trained on how to use the new system.}{3}
+\contentsline {subsection}{\numberline {7.4}Conclusion}{3}
+\contentsline {paragraph}{Poultry record keeping system provides functions like capturing of data with a lot of ease. Farmers always face challenges like errors in data collection, also a lot of time is wasted while collecting data manually by using pens, books and papers. The developed system will address all these challenges.}{3}

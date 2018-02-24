@@ -1,0 +1,105 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>POULTRY RECORD KEEPING SYSTEM FORM</h:title>
+    <model>
+      <instance>
+        <data id="build_Untitled-Form_1519522116">
+          <meta>
+            <instanceID/>
+          </meta>
+          <POULTRY/>
+          <Location/>
+          <Audio/>
+          <Video/>
+          <Image/>
+          <BatchNumber/>
+          <NumberofLayers/>
+          <NumberofBroilers/>
+          <NumberofTrays/>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="English">
+          <text id="/data/POULTRY:label">
+            <value>POULTRY RECORD KEEPING SYSTEM</value>
+          </text>
+          <text id="/data/Location:label">
+            <value>Location</value>
+          </text>
+          <text id="/data/Audio:label">
+            <value>Audio</value>
+          </text>
+          <text id="/data/Video:label">
+            <value>Video</value>
+          </text>
+          <text id="/data/Image:label">
+            <value>Image</value>
+          </text>
+          <text id="/data/BatchNumber:label">
+            <value>Batch Number</value>
+          </text>
+          <text id="/data/BatchNumber:requiredMsg">
+            <value>It is required</value>
+          </text>
+          <text id="/data/NumberofLayers:label">
+            <value>Number of Layers</value>
+          </text>
+          <text id="/data/NumberofLayers:requiredMsg">
+            <value>It is required</value>
+          </text>
+          <text id="/data/NumberofBroilers:label">
+            <value>Number of Broilers</value>
+          </text>
+          <text id="/data/NumberofBroilers:requiredMsg">
+            <value>It is required</value>
+          </text>
+          <text id="/data/NumberofTrays:label">
+            <value>Number of Trays</value>
+          </text>
+          <text id="/data/NumberofTrays:requiredMsg">
+            <value>It is required</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/POULTRY" type="string" readonly="true()"/>
+      <bind nodeset="/data/Location" type="geopoint"/>
+      <bind nodeset="/data/Audio" type="binary"/>
+      <bind nodeset="/data/Video" type="binary"/>
+      <bind nodeset="/data/Image" type="binary"/>
+      <bind nodeset="/data/BatchNumber" type="string" required="true()" jr:requiredMsg="jr:itext('/data/BatchNumber:requiredMsg')"/>
+      <bind nodeset="/data/NumberofLayers" type="int" required="true()" jr:requiredMsg="jr:itext('/data/NumberofLayers:requiredMsg')"/>
+      <bind nodeset="/data/NumberofBroilers" type="int" required="true()" jr:requiredMsg="jr:itext('/data/NumberofBroilers:requiredMsg')"/>
+      <bind nodeset="/data/NumberofTrays" type="int" required="true()" jr:requiredMsg="jr:itext('/data/NumberofTrays:requiredMsg')"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/data/POULTRY">
+      <label ref="jr:itext('/data/POULTRY:label')"/>
+    </input>
+    <input ref="/data/Location">
+      <label ref="jr:itext('/data/Location:label')"/>
+    </input>
+    <upload ref="/data/Audio" mediatype="audio/*">
+      <label ref="jr:itext('/data/Audio:label')"/>
+    </upload>
+    <upload ref="/data/Video" mediatype="video/*">
+      <label ref="jr:itext('/data/Video:label')"/>
+    </upload>
+    <upload ref="/data/Image" mediatype="image/*">
+      <label ref="jr:itext('/data/Image:label')"/>
+    </upload>
+    <input ref="/data/BatchNumber">
+      <label ref="jr:itext('/data/BatchNumber:label')"/>
+    </input>
+    <input ref="/data/NumberofLayers">
+      <label ref="jr:itext('/data/NumberofLayers:label')"/>
+    </input>
+    <input ref="/data/NumberofBroilers">
+      <label ref="jr:itext('/data/NumberofBroilers:label')"/>
+    </input>
+    <input ref="/data/NumberofTrays">
+      <label ref="jr:itext('/data/NumberofTrays:label')"/>
+    </input>
+  </h:body>
+</h:html>
